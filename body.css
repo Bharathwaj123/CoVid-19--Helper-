@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #000000;
+    background-image: url(https://images.theconversation.com/files/400181/original/file-20210512-13-1hypray.jpg?ixlib=rb-1.1.0&rect=1%2C4%2C1020%2C608&q=45&auto=format&w=496&fit=clip);
+    background-size:cover ;
+    background-attachment:fixed;
+
+    
+    
+    
+      
+  }
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, 0.1014);
+    
+      
+    
+    text-align: center;
+  }
+  .box h1{
+    color: rgb(0, 18, 97);
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  ::-webkit-input-placeholder{
+    color: #ffffff;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  ::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+  }
+  .box input[type = "text"]:focus,.box input[type = "type"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+  .icons a{
+      text-decoration: none;
+      
+      color: #ffffff;
+  }
+  .icons ion-icon{
+      color: #ffffff;
+      font-size: 35px;
+      padding: 5px;
+      transition: 0.3s ease;
+      
+  }
+  
+  .icons ion-icon:hover{
+      color: rgb(0, 247, 255);
+  }
